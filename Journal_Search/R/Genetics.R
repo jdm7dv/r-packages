@@ -1,5 +1,10 @@
 
 #Copyright Jonathan Moore 2017
+
+main <- function() {
+  ....
+}
+
 JournalSearch<-function(n)
 {
   # List all available installed packages on your machine.
@@ -14,7 +19,7 @@ JournalSearch<-function(n)
   library('fulltext')
   search()
 
-  searchplos(n, 'id,journal,title,publication_date', limit = 40)
+  searchplos("genetics", 'id,journal,title,publication_date', limit = 40)
 
 }
 

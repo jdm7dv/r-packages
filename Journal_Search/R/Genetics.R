@@ -23,7 +23,7 @@ JournalSearch<-function(n)
 
 }
 
-
+foo <- eval(parse(text = paste("mean(x,", myoptions, ")")))
 
 
 
